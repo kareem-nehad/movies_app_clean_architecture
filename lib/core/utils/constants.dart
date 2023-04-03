@@ -5,4 +5,5 @@ class AppConstants {
   // End-Points
   static const String nowPlayingMoviesEndPoint = '/movie/now_playing';
   static const String popularMoviesEndPoint = '/movie/popular';
+  static const String topRatedMoviesEndPoint = '/movie/top_rated';
 }
