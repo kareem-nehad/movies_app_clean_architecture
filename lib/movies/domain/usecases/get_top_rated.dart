@@ -9,6 +9,6 @@ class GetTopRated {
   GetTopRated(this.baseMoviesRepository);
 
   Future<Either<Failure, List<Movie>>> execute() async {
-    return await baseMoviesRepository.getPopularMovies();
+    return await baseMoviesRepository.getTopRateMovies();
   }
 }
